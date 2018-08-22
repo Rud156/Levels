@@ -6037,6 +6037,10 @@ Prefab:
       propertyPath: SubModule.enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
   m_IsPrefabAsset: 0
@@ -7217,6 +7221,10 @@ Prefab:
       propertyPath: m_Name
       value: Low Smoke
       objectReference: {fileID: 0}
+    - target: {fileID: 1148068062884030, guid: b923c5a97dab7e7428e94d9e77a05acc, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b923c5a97dab7e7428e94d9e77a05acc, type: 2}
   m_IsPrefabAsset: 0
@@ -7316,7 +7324,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1833226389}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 2.834695, y: 2.111343, z: -2.7362509}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

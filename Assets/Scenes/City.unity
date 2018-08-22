@@ -5711,7 +5711,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd749413708cb494f8b9e372a101f490, type: 3}
   m_Name: 
@@ -9276,8 +9276,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0, b: 0.7764706, a: 1}
-      maxColor: {r: 1, g: 0.41667747, b: 0, a: 1}
+      minColor: {r: 1, g: 0.30576408, b: 0, a: 1}
+      maxColor: {r: 1, g: 0.4292453, b: 0.9314341, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -14013,7 +14013,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1940583087781256, guid: 47833e2440ef31c4bb3ec720e04adfad,
     type: 2}
   m_PrefabInternal: {fileID: 116096910}
---- !u!23 &1848465905
+--- !u!23 &1848465906
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14291,6 +14291,52 @@ Prefab:
     - target: {fileID: 1377755100838486, guid: 7d365eaae41c2de44b192961556444cc, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.light
+      value: 
+      objectReference: {fileID: 108554821591034746, guid: b583eb04f7f09464da18c022cd94ec21,
+        type: 2}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.ratio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.intensityCurve.scalar
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.color
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.range
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.randomDistribution
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198782864559583078, guid: 7d365eaae41c2de44b192961556444cc,
+        type: 2}
+      propertyPath: LightsModule.maxLights
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d365eaae41c2de44b192961556444cc, type: 2}

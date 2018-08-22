@@ -5272,6 +5272,27 @@ Prefab:
       propertyPath: m_Intensity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_DrawHalo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39,
+        type: 2}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_Cookie
+      value: 
+      objectReference: {fileID: 2800000, guid: 8caa437b19957a045866b84c6218a0db, type: 3}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114848587656151482, guid: bc1c04b658080324b8c4905e63d131bd, type: 2}
     - {fileID: 114374426513009966, guid: bc1c04b658080324b8c4905e63d131bd, type: 2}
@@ -5444,7 +5465,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd749413708cb494f8b9e372a101f490, type: 3}
   m_Name: 
@@ -6002,6 +6023,22 @@ Prefab:
       propertyPath: m_Intensity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39,
+        type: 2}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae2cb7a15a17e8440a994cde78cefccf, type: 2}
   m_IsPrefabAsset: 0
@@ -6462,6 +6499,22 @@ Prefab:
       propertyPath: m_Intensity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39,
+        type: 2}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae2cb7a15a17e8440a994cde78cefccf, type: 2}
   m_IsPrefabAsset: 0
@@ -6803,6 +6856,27 @@ Prefab:
         type: 2}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108206545938188542, guid: 81fe5898604546040ae60551cce0f2a2,
+        type: 2}
+      propertyPath: m_DrawHalo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108206545938188542, guid: 81fe5898604546040ae60551cce0f2a2,
+        type: 2}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39,
+        type: 2}
+    - target: {fileID: 108206545938188542, guid: 81fe5898604546040ae60551cce0f2a2,
+        type: 2}
+      propertyPath: m_Cookie
+      value: 
+      objectReference: {fileID: 2800000, guid: 8caa437b19957a045866b84c6218a0db, type: 3}
+    - target: {fileID: 108206545938188542, guid: 81fe5898604546040ae60551cce0f2a2,
+        type: 2}
+      propertyPath: m_Range
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81fe5898604546040ae60551cce0f2a2, type: 2}
@@ -7248,9 +7322,9 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: 8caa437b19957a045866b84c6218a0db, type: 3}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 12100000, guid: 09ebe82dbd1113c3d000dc0b8d76c639, type: 2}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
@@ -12562,9 +12636,9 @@ Light:
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
+  m_Cookie: {fileID: 2800000, guid: 8caa437b19957a045866b84c6218a0db, type: 3}
+  m_DrawHalo: 1
+  m_Flare: {fileID: 12100000, guid: 09ebe82dbd1113c3d000dc0b8d76c639, type: 2}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
@@ -12947,6 +13021,22 @@ Prefab:
       propertyPath: m_Intensity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_DrawHalo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39,
+        type: 2}
+    - target: {fileID: 108472205572039610, guid: ae2cb7a15a17e8440a994cde78cefccf,
+        type: 2}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae2cb7a15a17e8440a994cde78cefccf, type: 2}
   m_IsPrefabAsset: 0
@@ -13126,6 +13216,27 @@ Prefab:
         type: 2}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_DrawHalo
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_Flare
+      value: 
+      objectReference: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39,
+        type: 2}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_Cookie
+      value: 
+      objectReference: {fileID: 2800000, guid: 8caa437b19957a045866b84c6218a0db, type: 3}
+    - target: {fileID: 108429094978461160, guid: bc1c04b658080324b8c4905e63d131bd,
+        type: 2}
+      propertyPath: m_Range
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114848587656151482, guid: bc1c04b658080324b8c4905e63d131bd, type: 2}

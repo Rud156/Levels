@@ -21,6 +21,9 @@ public class FreeCamera : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+            freeLookEnabled = !freeLookEnabled;
+
         if (!freeLookEnabled)
             return;
 
